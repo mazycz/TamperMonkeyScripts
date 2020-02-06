@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chilli Gallery
 // @namespace    chilli
-// @version      0.2
+// @version      0.1.1
 // @description  lets make chilli more hot!
 // @author       mazy.cz
 // @match        https://helpdesk.definity.cz/*
@@ -15,7 +15,8 @@ var $ = jQuery;
 (function () {
     var styles = [
         "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-        "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        "https://raw.githubusercontent.com/mazycz/Test001Scripts/master/Styles/ChilliDark.css",
+        "https://raw.githubusercontent.com/mazycz/Test001Scripts/master/Styles/ChilliGallery.css"
         ];
 
     styles.each((i, e) =>{

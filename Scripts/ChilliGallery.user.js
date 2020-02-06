@@ -7,24 +7,32 @@
 // @match        https://helpdesk.definity.cz/*
 // @grant        GM_addStyle
 // @grant        unsafeWindow
-// @grant       GM_updatingEnabled
+// @grant        GM_updatingEnabled
+// @grant        GM_xmlhttpRequest
 // @require      https://raw.githubusercontent.com/mihaifm/linq/master/linq.js
 // ==/UserScript==
 
 var $ = jQuery;
 (function () {
+    $("head").append(`<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">`);
     var styles = [
-        "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
         "https://raw.githubusercontent.com/mazycz/Test001Scripts/master/Styles/ChilliDark.css",
         "https://raw.githubusercontent.com/mazycz/Test001Scripts/master/Styles/ChilliGallery.css"
-        ];
+    ];
 
-    styles.each((i, e) =>{
-        $("head").append(`<link href="${e}" rel="stylesheet" type="text/css">`);
-    })
-    
+    $(styles).each((i, e) => {
+        GM_xmlhttpRequest({
+            method: "GET",
+            url: `${e}?` + Math.random(),
+            onload: function (response) {
+                var css = response.responseText;
+                GM_addStyle(css);
+            }
+        });
+    });    
+
     // pridani tlacitka pro schovani / zobrazeni deniku udalosti
-    $(".title-bar-actions > .contextual").prepend("<a href='javascript:void(0);' onclick='custShowHideJournal();' class='icon icon-file text-plain'>Zobrazit / Schovat denik</a>");
+    $(".title-bar-actions > .contextual").prepend("<a href='javascript:void(0);' onclick='custShowHideJournal();' class='icon'><i class='fa fa-history'></i>&nbsp;Zobrazit / Schovat denik</a>");
 
     var atts = $(".attachments a:not(.delete)");
     for (var i = 0; i < atts.length; i++) {

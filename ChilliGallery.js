@@ -11,7 +11,7 @@
 // @grant       GM_updatingEnabled
 // @require      https://raw.githubusercontent.com/mihaifm/linq/master/linq.js
 // ==/UserScript==
-
+https://github.com/KRS-L/cncscripts.com/raw/master/API%20wrapper.user.js
 var $ = jQuery;
 (function() {    
     'use strict';

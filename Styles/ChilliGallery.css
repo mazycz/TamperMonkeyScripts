@@ -6,15 +6,17 @@
     min-height: 100%;
     z-index: 21000;
     background-color: rgba(0, 0, 0, 0.55);
-  }
-  .mazy-gallery-modal .gallery-type-left {
+}
+
+.mazy-gallery-modal .gallery-type-left {
     width: 80%;
     margin: 0 auto;
     background: #505050;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-controls {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-controls {
     top: 10px;
     right: 10px;
     margin-bottom: -30px;
@@ -22,39 +24,46 @@
     display: inline-block;
     position: relative;
     z-index: 1;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-close,
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-download,
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-info {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-close,
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-download,
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-info {
     display: inline-block;
     background: #6a5a8c;
     color: #FFF;
     padding: 5px 10px;
     position: relative;
     cursor: pointer;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-close:hover,
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-download:hover,
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-info:hover {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-close:hover,
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-download:hover,
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-info:hover {
     opacity: 0.85;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-info {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-info {
     margin-right: 5px;
     padding: 5px 15px;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-close {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-controls span.gallery-close {
     margin-left: 10px;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box {
     position: relative;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .main-image {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .main-image {
     position: relative;
     display: block;
     height: 80%;
     width: 93%;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .main-image img {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .main-image img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -63,24 +72,28 @@
     top: 0;
     left: 0;
     margin: auto;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .gallery-move {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .gallery-move {
     display: block;
     margin: 10px 0 10px 0px;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .gallery-move span {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .right-section .gallery-move span {
     padding: 5px;
     color: #FFF;
     cursor: pointer;
     margin: 0 5px 0 0px;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images {
     margin: 0px 0 0px 0px;
     padding: 0 10px 10px 10px;
     background: #CCC;
     overflow-y: auto;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image {
     display: inline-block;
     margin: 0 3px 0 0;
     height: auto;
@@ -89,52 +102,61 @@
     border: 2px solid #ccc;
     vertical-align: top;
     background: #a9a9a9;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image.active {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image.active {
     border-color: #000;
     opacity: 1;
     border-width: 4px;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image.active span {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image.active span {
     color: #FFF;
     background: #000;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image:hover {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image:hover {
     border-color: #000;
     opacity: 0.9;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image img {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image img {
     max-height: 100px;
     min-width: 50px;
     max-width: 100%;
     top: 0;
-  }
-  .mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image span {
+}
+
+.mazy-gallery-modal .gallery-type-left .gallery-content-box .gallery-images a.gallery-image span {
     text-align: center;
     width: 100%;
     color: #000;
     display: block;
-  }
-  .mazy-gallery-modal .gallery-type-bottom {
+}
+
+.mazy-gallery-modal .gallery-type-bottom {
     width: 80%;
     margin: 0 auto;
     background: #505050;
     margin-top: 50px;
     padding-top: 20px;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-controls {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-controls {
     top: -10px;
     right: 10px;
     float: right;
     display: inline-block;
     position: relative;
     z-index: 1;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box {
     position: relative;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-previous-image,
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-next-image {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-previous-image,
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-next-image {
     width: 40px;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -144,16 +166,19 @@
     color: #FFF;
     text-align: center;
     cursor: pointer;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-previous-image:hover,
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-next-image:hover {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-previous-image:hover,
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-next-image:hover {
     opacity: 0.7;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-next-image {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-next-image {
     float: right;
     right: 0;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .main-image {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .main-image {
     position: relative;
     display: block;
     height: 80%;
@@ -161,8 +186,9 @@
     white-space: nowrap;
     text-align: center;
     margin: 20px auto 0px auto;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .main-image img {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .main-image img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -173,15 +199,17 @@
     left: 0;
     right: 0;
     margin: auto;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images {
     text-align: center;
     margin: 10px auto 0px auto;
     padding: 0 10px 10px 10px;
     overflow-x: auto;
     white-space: nowrap;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image {
     display: inline-block;
     margin: 0 3px 0 0;
     height: auto;
@@ -189,63 +217,75 @@
     opacity: 0.8;
     border: 2px solid #ccc;
     vertical-align: top;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image.active {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image.active {
     border-color: #333;
     opacity: 1;
     border-width: 4px;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image:hover {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image:hover {
     border-color: #333;
     opacity: 0.9;
-  }
-  .mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image img {
+}
+
+.mazy-gallery-modal .gallery-type-bottom .gallery-content-box .gallery-images a.gallery-image img {
     max-height: 100%;
     max-width: 100px;
     top: 0;
-  }
-  .mazy-gallery-qtip {
+}
+
+.mazy-gallery-qtip {
     border: 0;
     margin: 0;
     padding: 0;
-  }
-  .mazy-gallery-qtip .qtip-content {
+}
+
+.mazy-gallery-qtip .qtip-content {
     margin: 0;
     padding: 0;
-  }
-  .mazy-gallery-qtip .qtip-content .gallery-info-qtip {
+}
+
+.mazy-gallery-qtip .qtip-content .gallery-info-qtip {
     padding: 5px 10px;
     background: #333;
-  }
-  .gallery-controls span.gallery-close,
-  .gallery-controls span.gallery-download,
-  .gallery-controls span.gallery-info,
-  .gallery-controls span.gallery-expand {
+}
+
+.gallery-controls span.gallery-close,
+.gallery-controls span.gallery-download,
+.gallery-controls span.gallery-info,
+.gallery-controls span.gallery-expand {
     display: inline-block;
     background: #333;
     color: #FFF;
     padding: 5px 10px;
     position: relative;
     cursor: pointer;
-  }
-  .gallery-controls span.gallery-close:hover,
-  .gallery-controls span.gallery-download:hover,
-  .gallery-controls span.gallery-info:hover,
-  .gallery-controls span.gallery-expand:hover {
+}
+
+.gallery-controls span.gallery-close:hover,
+.gallery-controls span.gallery-download:hover,
+.gallery-controls span.gallery-info:hover,
+.gallery-controls span.gallery-expand:hover {
     opacity: 0.85;
-  }
-  .gallery-controls span.gallery-info {
+}
+
+.gallery-controls span.gallery-info {
     margin-right: 5px;
     padding: 5px 15px;
-  }
-  .gallery-controls span.gallery-expand {
+}
+
+.gallery-controls span.gallery-expand {
     margin-right: 5px;
     padding: 5px 10px;
-  }
-  .gallery-controls span.gallery-close {
+}
+
+.gallery-controls span.gallery-close {
     margin-left: 10px;
-  }
-  .mazy-gallery-modal-expanded {
+}
+
+.mazy-gallery-modal-expanded {
     position: absolute;
     z-index: 200000;
     top: 0;
@@ -255,20 +295,24 @@
     text-align: center;
     overflow-y: auto;
     background: rgba(50, 50, 50, 0.5);
-  }
-  .mazy-gallery-modal-expanded .image {
+}
+
+.mazy-gallery-modal-expanded .image {
     margin: 0 auto;
     padding: 20px;
-  }
-  .mazy-gallery-modal-expanded .image img {
+}
+
+.mazy-gallery-modal-expanded .image img {
     border: 2px solid #ccc;
     width: auto;
     height: auto;
-  }
-  .test-image img {
+}
+
+.test-image img {
     max-width: 50px;
     max-height: 50px;
-  }
-  #modal-HistoryModal {
+}
+
+#modal-HistoryModal {
     z-index: 31000 !important;
-  }
+}

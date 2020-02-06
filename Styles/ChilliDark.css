@@ -1,50 +1,70 @@
 body {
     background: #333;
 }
+
 div#main {
     background-color: #333;
 }
+
 div#main-menu>ul>li {
     background-color: #7b7b7b;
 }
+
 div#content {
     background-color: #333;
     color: #bbb;
 }
-a, a:link, a:visited {
+
+a,
+a:link,
+a:visited {
     color: #bf5c5c;
 }
-.contextual > a.icon {
+
+.contextual>a.icon {
     color: #ddd !important;
 }
+
 #breadcrumb {
     color: #ccc;
     background: #555;
 }
+
 .rounded-background {
     border-radius: 2px;
 }
+
 #history>h3 {
     background: #555;
 }
+
 .mypage-box {
     background: #444;
 }
+
 #content .mypage-box table tr.even {
     background: #222;
 }
+
 #content .mypage-box table th {
     background: #222 !important;
 }
-table.list tbody tr:hover, #content .mypage-box table tr.even:hover {
+
+table.list tbody tr:hover,
+#content .mypage-box table tr.even:hover {
     background: #000;
 }
-#content .mypage-box table.issues td, #content .mypage-box table th{
-	border: none;
+
+#content .mypage-box table.issues td,
+#content .mypage-box table th {
+    border: none;
 }
-#content .mypage-box table.list{
-	border: solid 1px #222;
+
+#content .mypage-box table.list {
+    border: solid 1px #222;
 }
-#content .mypage-box table.list td, #content .mypage-box table.list th{
-	padding-left: 5px;    
+
+#content .mypage-box table.list td,
+#content .mypage-box table.list th {
+    padding-left: 5px;
 }

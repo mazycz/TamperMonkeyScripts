@@ -26,7 +26,8 @@ var $ = jQuery;
             url: `${e}?` + Math.random(),
             onload: function (response) {
                 var css = response.responseText;
-                GM_addStyle(css);
+                GM_addStyle(css); 
+                
             }
         });
     });    

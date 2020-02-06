@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name         Chilli Gallery
-// @namespace    http://tampermonkey.net/
-// @updateURL    https://raw.githubusercontent.com/mazycz/Test001Scripts/master/ChilliGallery.js
+// @namespace    chilli
 // @version      0.2
-// @description  try to take over the world!
+// @description  lets make chilli more hot!
 // @author       mazy.cz
 // @match        https://helpdesk.definity.cz/*
 // @grant        GM_addStyle
@@ -11,10 +10,9 @@
 // @grant       GM_updatingEnabled
 // @require      https://raw.githubusercontent.com/mihaifm/linq/master/linq.js
 // ==/UserScript==
-https://github.com/KRS-L/cncscripts.com/raw/master/API%20wrapper.user.js
+
 var $ = jQuery;
 (function() {    
-    'use strict';
     $("head").append ('<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">');
     // pridani tlacitka pro schovani / zobrazeni deniku udalosti
     $(".title-bar-actions > .contextual").prepend("<a href='javascript:void(0);' onclick='custShowHideJournal();' class='icon icon-file text-plain'>Zobrazit / Schovat denik</a>");
